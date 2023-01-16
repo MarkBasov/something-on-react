@@ -36,12 +36,7 @@ const productsSlice = createSlice({
 
 const { actions, reducer } = productsSlice
 
-export const {
-  getProductsStart,
-  getProductsSuccess,
-  getProductsFailed,
-  clearProducts,
-} = actions 
+export const { getProductsStart, getProductsSuccess, getProductsFailed, clearProducts } = actions
 
 export default reducer
 
